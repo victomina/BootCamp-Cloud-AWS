@@ -22,4 +22,12 @@
     - systemctl status       ==> verificar o status
     - systemctl enabled      ==> para quando o sistema reiniciar , o sewrviço será executado automaticamente
 
-- 
+## Servidor de Banco de Dados com Linux
+
+- Hospedando um banco de dados
+
+-  MySQL em um servidor:
+    - buscando o mySQL server para um servidor Linux:
+    `apt search mysql-server`
+    - Instalando o servidor mysql
+    `apt install mysql-server-8.0 -y`  
